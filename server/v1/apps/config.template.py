@@ -1,0 +1,7 @@
+DB_USER = "DB_USER"
+DB_PASS = "DB_PASS"
+DB_HOST = "DB_HOST"
+DB_DATABASE = "DB_DATABASE"
+DB_TEST = "DB_TEST"
+DATABASE = 'mysql://' + DB_USER + ':' + DB_PASS + '@' + DB_HOST + '/' + DB_DATABASE
+DATABASE_TEST = 'mysql://' + DB_USER + ':' + DB_PASS + '@' + DB_HOST + '/' + DB_TEST
